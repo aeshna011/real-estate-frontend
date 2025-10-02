@@ -44,9 +44,11 @@ const Navigation = () => {
                     <a  onClick={()=>setShowMobileMenu(false)}href="#About"  className='px-4 py-2'> About</a>
                     <a  onClick={()=>setShowMobileMenu(false)}href="#Project" className='px-4 py-2'> Projects</a>
                     <a  onClick={()=>setShowMobileMenu(false)}href="#Testimonials" className='px-4 py-2' > Testimonials </a>
-                </ul>
+                </ul>Y
             </div>
         </div>
+
+
       
     </div> 
   )
