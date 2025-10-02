@@ -10,10 +10,11 @@ const Header = () => {
       <Navigation/>
       <motion.div
       initial={{opacity:0 ,y:100}}
-      animate={{opacity:1, y:0}}
+      whileInView={{opacity:1, y:0}}
       transition={{duration:1.5}}
+      viewport={{ once: true }}
 
-      
+       
       
       
       className="container mx-auto  text-center py-4 px-6 md:px-20 lg:px-32 text-white ">
